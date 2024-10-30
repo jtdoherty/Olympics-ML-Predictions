@@ -227,7 +227,7 @@ def analyze_team_performance(test_df: pd.DataFrame,
 
 def main():
     # Configuration
-    FILE_PATH = r"C:\Git\Olympics-ML-Predictions\teams.csv"
+    FILE_PATH = r"Olympics-ML-Predictions\teams.csv"
     REQUIRED_COLUMNS = ["team", "country", "year", "athletes", "age", "prev_medals", "medals"]
     PREDICTORS = ["athletes", "prev_medals"]
     TARGET = "medals"
